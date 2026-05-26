@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sklep</title>
+
+  <style>
+    body{
+      margin:0;
+      background:#0b0b0b;
+      font-family:Arial;
+      color:white;
+    }
+
+    h1{
+      text-align:center;
+      padding:40px;
+      color:orange;
+      text-shadow:0 0 15px orange;
+    }
+
+    .products{
+      display:flex;
+      justify-content:center;
+      gap:40px;
+      flex-wrap:wrap;
+      padding:40px;
+    }
+
+    .product{
+      background:#161616;
+      padding:20px;
+      border-radius:20px;
+      width:350px;
+      text-align:center;
+      box-shadow:0 0 20px rgba(255,120,0,0.3);
+    }
+
+    .product img{
+      width:100%;
+      border-radius:20px;
+      border:3px solid orange;
+    }
+
+    .product h2{
+      color:orange;
+      margin-top:20px;
+    }
+
+    .price{
+      font-size:30px;
+      color:#00ff88;
+      margin:15px 0;
+      font-weight:bold;
+    }
+
+    .buy{
+      display:inline-block;
+      padding:12px 25px;
+      background:orange;
+      color:black;
+      text-decoration:none;
+      border-radius:10px;
+      font-weight:bold;
+    }
+
+    .buy:hover{
+      background:#ff5500;
+    }
+  </style>
+</head>
+
+<body>
+
+<h1>SKLEP GAMINGOWY</h1>
+
+<div class="products">
+
+  <div class="product">
+
+    <img src="koszulka1.png" alt="Koszulka 1">
+
+    <h2>Koszulka Inferno</h2>
+
+    <div class="price">149 PLN</div>
+
+    <a class="buy" href="#">
+      Kup
+    </a>
+
+  </div>
+
+  <div class="product">
+
+    <img src="koszulka2.png" alt="Koszulka 2">
+
+    <h2>Koszulka Fire Edition</h2>
+
+    <div class="price">179 PLN</div>
+
+    <a class="buy" href="#">
+      Kup
+    </a>
+
+  </div>
+
+</div>
+
+</body>
+</html>
